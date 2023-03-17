@@ -1,0 +1,629 @@
+@media screen and (min-width:991px)and (max-width:1199px){
+    /* =========================================shop-head======================================= */
+    .shop-head h1{
+        padding: 0 0 40px;
+    }
+    /* ============================================header-logo======================================== */
+    /* ===4=right-icons===total-price==== */
+    .total-price {
+        display: none;
+    }
+    /* ===========================================nav========================================== */
+    .nav{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .nav-links >li> a{
+        margin-right: 10px;
+    }
+
+/* =======================================5-items=================================== */
+.items-5{
+   overflow: hidden;
+}
+.items-5 a{
+     width:calc(95% / 4);
+     flex-shrink: 0;
+}
+.items-5 a:not(:last-child){
+    margin-right: calc(5%/3);
+}
+/* =======================================Recently Sold Items=================================== */
+.solid-items{
+    grid-template-columns:repeat(4,calc(92%/4));
+    gap:25px calc(8%/3) ;
+}
+/* =======================================Our Featured Items===================================   */
+.featured-items{
+    grid-template-columns:repeat(2,calc(98%/2));
+    gap:20px 2% ;
+}
+/* -- ======================================Collected New Items=============================== -- */
+.collected-new-items .solid-items{
+    overflow: hidden;
+    grid-template-rows: auto 0;
+}
+/* - ======================================Shop By Brands========================================= - */
+.shop{
+     overflow: hidden;
+     gap:calc(10%/3)
+ }
+ .shop-item{
+     width: calc(90%/4);
+     flex-shrink: 0;
+ }
+ /* -- =====================================Read Our Articles========================================= -- */
+.articles ul{
+flex-direction:column;
+justify-content: start;
+align-items: start;
+}
+/* -- =================================================footer======================================= - */
+.footer-four{
+    /* grid-template-columns: repeat(2,calc(90%/2)); */
+    grid-template-columns: repeat(2,1fr);
+
+}
+.footer2{
+    margin-bottom:38px;
+}
+}
+@media screen and (max-width:1122px){
+/* =======================================Our Featured Items===================================   */
+/* =============.solid-items-image============== */
+.featured-items .solid-items-image{
+    width:180px;
+}
+/* ================solid-items-second============ */
+.featured-items .solid-items-second{
+    width: calc(100% - 200px);/* 180 width img w 20px margin-left ly solid-items-second*/ ;
+}
+/* =======stars========= */
+.featured-items .stars{
+    letter-spacing: normal;
+}
+.featured-items .stars i{
+   font-size:10px ;
+
+}
+
+}
+@media screen and (max-width:991px){
+.container{
+    width:90%;
+}
+  /* =========================================shop-head======================================= */
+  .shop-head h1{
+    padding: 0 0 40px;
+}
+/* ----------------------------------------- header top ------------------------------------------- */
+  .header-top >div.flex{
+        flex-direction: column;
+    }
+    .header-top .left {
+        padding:8px 0 18px;
+    }
+     .right{
+        width: 90%;
+        margin: auto;
+    } 
+    .right .right-select{
+        margin: 0;
+    }
+    .right .right-contact{
+        margin-left: auto;
+    }
+
+    /* ==============================================header==logo=========================================== */
+    .wrapper{
+     background-color: #fff;
+     box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.116); 
+    }
+    .logo img{
+        height: 35px;
+        margin-right:0;
+    }
+    header{
+        width: 100%;
+        justify-content: space-around;
+        border-bottom: none;
+    }
+    .search{
+        flex-grow: 0;
+        margin: 0;
+    }
+    .search>input , .right-icons  {
+        display: none;
+    }
+    .search a{
+        position: static;
+        padding: 0;
+    }
+    header>div:first-child{
+        order:2;
+    }
+    header>div:nth-child(2){
+        order:1;
+    }
+    header>div:nth-child(3){
+        order:3;
+    }
+    .media-bottom{
+        display: flex;
+    }
+    /* =====user-img===== */
+    .user-img span{
+        display: none;
+    }
+    /* ===2=user img==== */
+    .user-img img{
+        margin-right:0;
+    }
+    /* =============================================nav========================================== */
+    .nav{
+        display: none;
+    }
+
+    /* =======================================section bg1===================================  */
+/* ==============second-part=============== */
+.second-part h1{
+   
+    font-size:30px;
+}
+.second-part a{
+    padding:15px 22px;
+}
+.second-part a:first-child{
+    margin-right: 10px;
+}
+/* =======================================5-items=================================== */
+.items-5{
+   overflow: hidden;
+}
+.items-5 a{
+     width:calc(95% / 3);
+     flex-shrink: 0;
+}
+.items-5 a:not(:last-child){
+    margin-right: calc(5%/2);
+}
+/* =======================================Recently Sold Items=================================== */
+.solid-items{
+    grid-template-columns:repeat(3,calc(92%/3));
+    gap:25px calc(8%/2) ;
+}
+.solid-item .fresh-green h6{
+    font-size: 16px;
+}
+/* =======================================Our Featured Items===================================   */
+.featured-items{
+    grid-template-columns:100%;
+    gap:25px ;
+}
+/* =============.solid-items-image============== */
+.featured-items .solid-items-image{
+    width:220px;
+}
+/* ================solid-items-second============ */
+.featured-items .solid-items-second{
+    width: calc(100% - 240px);/* 220 width img w 20px margin-left ly solid-items-second*/ ;
+}
+/* --==============================================bg3=====================================   */
+.bg3 .flex{
+    flex-direction: column;
+}
+.bg3 .flex{
+    justify-content: space-between;
+}
+.bg3 .second-part{
+    width: 100%;
+    margin-bottom:23px;
+}
+.bg3 .fruits{
+   width: 100%;
+}
+
+/* -- ======================================Collected New Items=============================== -- */
+.collected-new-items .solid-items{
+    overflow: hidden;
+    grid-template-rows: auto 0;
+}
+/* - ======================================Shop By Brands========================================= - */
+.shop{
+    overflow: hidden;
+    gap:calc(5%/2)
+}
+.shop-item{
+    width: calc(95%/3);
+    flex-shrink: 0;
+}
+/* -- ======================================Client's Feedback========================================= - */
+/* ======.feedback-item==== */
+.feedback-item{
+    padding:30px;
+}
+/* -- =====================================Read Our Articles========================================= -- */
+.articles{
+    gap:5%;
+    overflow: hidden;
+}
+.article-item{
+    width: calc(95%/2);
+    flex-shrink: 0;
+}
+/* -- ===============.bg4-content=================== */
+.bg4-content .discount{
+    width: 40%;
+}
+.bg4-content .form{
+    width:60%;
+}
+/* -- ======================================4-icons======================================== - */
+.four-icons{
+    flex-wrap: wrap;
+}
+.icon-item{
+    width: calc(100%/2);
+    flex-shrink: 0;
+    padding: 0 20px 30px;
+}
+.four-icons .icon-item:nth-of-type(3),.icon-item:nth-of-type(4){
+   padding-bottom: 0;
+}
+/* -- =================================================footer======================================= - */
+.footer-four{
+    /* grid-template-columns: repeat(2,calc(90%/2)); */
+    grid-template-columns: repeat(2,1fr);
+}
+.footer2{
+    margin-bottom: 30px;
+}
+/* -- =================================================footer======================================= - */
+/* ============green-footer========= */
+.green-footer{
+    padding: 20px 35px 58px;
+}
+}
+@media screen and (max-width:808px){
+    .container{
+        width:91%;
+    }
+}
+@media screen and (max-width:767px){
+.container{
+    width: 87%;
+}
+    /* ----------------------------------------- header top ------------------------------------------- */
+.left,.right-contact{
+    display: none;
+}
+.right-select.flex{
+    width: 100%;
+   justify-content: center;
+  
+}
+/* =======================================section bg1===================================  */
+/* =======fruits=======img=============== */
+.fruits{
+  display: none;
+}
+ /* ==============second-part=============== */
+.second-part{
+    width: 100%;
+   /* padding-left:20px; */
+}
+/* =======================================section bg3===================================  */
+/* =======fruits=======img=============== */
+.bg3 .fruits{
+  display:block;
+}
+
+/* =======================================5-items=================================== */
+.items-5{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   overflow: hidden;
+}
+.items-5 a{
+     width:calc(95% / 2);
+     flex-shrink: 0;
+}
+.items-5 a:not(:last-child){
+    margin-right: 5%;
+}
+/* =======================================Recently Sold Items=================================== */
+.solid-items{
+    grid-template-columns:repeat(2,calc(95%/2));
+    gap:25px 5% ;
+   
+}
+/* =======================================Our Featured Items===================================   */
+.featured-items{
+    grid-template-columns:100%;
+    gap:25px ;
+}
+/* =============.solid-items-image============== */
+.featured-items .solid-items-image{
+    width:220px;
+}
+/* ================solid-items-second============ */
+.featured-items .solid-items-second{
+    width: calc(100% - 240px);/* 220 width img w 20px margin-left ly solid-items-second*/ ;
+} 
+/* -- ======================================Collected New Items=============================== -- */
+.collected-new-items .solid-items >div:nth-child(3){
+   display: none;
+}
+
+/* -- ====================================two-images========================================= - */
+.two-image{
+    grid-template-columns:100% ;
+    gap:20px;
+}
+/* - ======================================Shop By Brands========================================= - */
+.shop{
+    overflow: hidden;
+    /* justify-content: space-around; */
+    gap:5%;
+}
+.shop-item{
+    width: calc(95%/2);
+}
+/* -- ======================================Client's Feedback========================================= - */
+.feedback{
+    /* overflow: visible; */
+    padding-bottom:40px;
+}
+/* ======.feedback-item==== */
+.feedback .feedback-item:nth-of-type(1){
+  width: 100%;
+}
+.feedback-item:nth-child(2),.feedback-item:nth-child(3){
+display: none;
+}
+/* -- =====================================Read Our Articles========================================= -- */
+.articles{
+    overflow: hidden;
+}
+.article-item{
+    width: 100%;
+    flex-shrink: 0;
+}
+/* - ======================================Shop By Brands========================================= -- */
+/* -- ===============.bg4-content=================== */
+.bg4-content{
+    flex-direction: column;
+
+}
+.bg4-content .discount{
+    width: 100%;
+}
+.bg4-content .form{
+    width: 100%;
+}
+/* -- =================================================footer======================================= - */
+/* ============green-footer========= */
+.green-footer{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 35px 62px;
+}
+.green-footer p{
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width:615px){
+    .container{
+        width:93%;
+    }
+@media screen and (max-width:575px){
+/* =======================================Recently Sold Items=================================== */
+.container{
+    width:95%;
+}
+.solid-items{
+    grid-template-columns:repeat(2,minmax(100px,300px));
+    gap:10px;
+   
+}
+.solid-item{
+        padding: 10px;
+}
+/* =======================================Our Featured Items===================================   */
+.featured-items{
+    grid-template-columns:100%;
+    gap:25px ;
+}
+/* =============.solid-items-image============== */
+.featured-items .solid-items-image{
+    width:180px;
+}
+/* ================solid-items-second============ */
+.featured-items .solid-items-second{
+    width: calc(100% - 200px);/* 220 width img w 20px margin-left ly solid-items-second*/ ;
+}
+/* --==============================================bg3=====================================   */
+.bg3 .sale{
+    left:10px;
+}
+/* - ======================================Shop By Brands========================================= -- */
+/* -- ===============.bg4-content=================== */
+.bg4-content .form{
+    flex-direction: column;
+   align-items: center;
+
+}
+.bg4-content .form button{
+    width: 180px;
+    margin-top: 25px;
+}
+/* -- ======================================4-icons======================================== - */
+.icon-item{
+    width:100%;
+}
+.four-icons 
+.icon-item:nth-of-type(3){
+    padding-bottom: 30px;
+ }
+ /* -- =================================================footer======================================= - */
+.footer-four{
+    grid-template-columns: 1fr;
+}
+.footer-four>div:not(:last-child){
+    margin-bottom: 30px;
+}
+.footer-four>div{
+    width: 100%;
+}
+.footer-links{
+    gap:68px;
+}
+ /* - ===========================ul=========Browse By Top Niche========================================= - */
+ .top-order{
+   flex-direction: column;
+ }
+ .top-order li{
+    padding: 10px 0;
+}
+.browse .top-order li{
+    border-right: none;
+
+}
+}
+@media screen and (max-width:450px){
+/* =======================================Our Featured Items===================================   */
+.featured-items .solid-items-second p{
+        display: none;
+    }
+ .featured-items .btn{
+     margin-top: 15px;
+}
+/* =============.solid-items-image============== */
+.featured-items .solid-items-image{
+    width:160px;
+}
+/* ================solid-items-second============ */
+.featured-items .solid-items-second{
+    width: calc(100% - 180px);/* 220 width img w 20px margin-left ly solid-items-second*/ ;
+}
+}
+
+@media screen and (max-width:423px){
+    /* =======================================Our Featured Items===================================   */
+    /* =============.solid-items-image============== */
+    .featured-items .solid-items-image{
+       width:130px;
+    }
+    /* ================solid-items-second============ */
+    .featured-items .solid-items-second{
+        width: calc(100% - 150px);/*220 width img w 20px margin-left ly solid-items-second*/ 
+    }
+/* -- =================================================footer======================================= - */
+/* ============green-footer========= */
+.green-footer{
+    padding: 20px 15px 70px;
+}
+    }
+
+ @media screen and (max-width:391px){
+        /* =======================================Our Featured Items===================================   */
+        /* =============.solid-items-image============== */
+        .featured-items .solid-items-image{
+           width:110px;
+        }
+        /* ================solid-items-second============ */
+        .featured-items .solid-items-second{
+            width: calc(100% - 130px);/* 220 width img w 20px margin-left ly solid-items-second*/ 
+        }
+    }
+   
+ @media screen and (max-width:380px){
+    /* ===4=right-icons===media-bottom==== */
+    .media-bottom{
+        font-size: 9px;
+        padding:15px 10px;
+        
+    }
+    .media-bottom i{
+        font-size: 11px;
+    }
+    /* =======================================section bg1===================================  */
+    /* ==============second-part=============== */
+    .second-part a:nth-child(2){
+       margin-top: 17px;
+    }
+    /* =======================================5-items=================================== */
+.items-5 h1{
+    font-size: 15px;
+}
+.items-5 a span{
+    font-size: 13px;
+}
+/* =======================================Recently Sold Items=================================== */
+.solid-item{
+    padding: 7px;
+}
+/* ================solid-items-second============ */
+.solid-items-second .fresh-green h6{
+    font-size: 15px;
+}
+ /* ======stars======  */
+.stars i{
+    font-size: 13px;
+}
+.p-header{
+    padding:30px 0 40px;
+    font-size:28px;
+}
+} 
+@media screen and (max-width:372px){
+    /* =======================================Our Featured Items===================================   */
+    /* =============.solid-items-image============== */
+    .featured-items .solid-item{
+        padding:5px;
+    }
+    .featured-items .solid-items-second{
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .featured-items .solid-items-image{
+    width:100px;
+    /* height: 100%; */
+    }
+    .featured-items .solid-items-image img{
+        /* height: 100%; */
+        object-fit: cover;
+    }
+    /* ================solid-items-second============ */
+    .featured-items .solid-items-second{
+        width:calc(100% - 110px);/* 220 width img w 20px margin-left ly solid-items-second*/ 
+    }
+    .featured-items .stars a{
+        font-size:11px;
+    }
+    .featured-items .stars i{
+        font-size:7px;
+    }
+    .featured-items .flex{
+        align-items: center;
+    }
+}
+.icon-item{
+    padding: 0 10px 30px;
+}
+}
+@media screen and (max-width:320px){
+
+/* -- =====================================Read Our Articles========================================= -- */
+.articles ul{
+flex-direction:column;
+justify-content: start;
+align-items: start;
+}
+/* -- =================================================footer======================================= - */
+/* ============green-footer========= */
+.green-footer-images img{
+    margin-right:0;
+}
+}
